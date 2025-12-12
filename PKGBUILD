@@ -8,7 +8,7 @@ license=('MPL-2.0')
 depends=('gcc-libs')
 makedepends=('rust' 'cargo')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/Ametrine-cc/Refresh/archive/v$pkgver.tar.gz")
-sha256sums=('2caf24137c92c44fde50765ebfb3e9ab8c12d5d9af1f8a263e97082e3cfacac9')
+sha256sums=('218f5b115d9905aab7ab6c2594d4d14a7a05cfffaab3528a5fcb20ddf1f54950')
 
 build() {
     cd "$pkgname-$pkgver"

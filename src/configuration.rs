@@ -5,8 +5,8 @@
 // Copyright (c) 2025 Ametrine Foundation <business@ametrine.cc>
 
 use std::io::{self, Read, Write};
-use std::process::exit;
 use std::process::Command;
+use std::process::exit;
 
 use crate::gitty;
 use crate::restock;
