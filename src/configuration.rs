@@ -95,6 +95,9 @@ fn show_menu(options: &[&str]) -> Option<usize> {
         // Clear screen and move cursor to top
         print!("\x1B[2J\x1B[H");
 
+        println!("Refresh  |  Ametrine Foundation");
+
+        println!("Select a language to for your project");
         println!("Use ↑/↓ arrows to navigate, Enter to select, Esc to cancel\n");
 
         // Display options

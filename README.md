@@ -13,12 +13,6 @@ A lightweight command-line tool for creating and managing projects across multip
 
 ## 📥 Installation
 
-### From Crates.io
-
-```bash
-cargo install refresh
-```
-
 ### From Source
 
 ```bash
