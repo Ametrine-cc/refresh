@@ -9,7 +9,7 @@ sudo rm -f /usr/local/bin/refresh
 rm -rf ~/.config/refresh
 
 # Remove the uninstall script
-sudo rm -f ~/usr/local/bin/uninstall.sh
+sudo rm -f ~/.config/refresh/uninstall.sh
 
 # Remove the directory
 

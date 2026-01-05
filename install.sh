@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Making directories..."
+mkdir -p ~/.config/refresh
+
 echo "Building refresh..."
 cargo build --release
 

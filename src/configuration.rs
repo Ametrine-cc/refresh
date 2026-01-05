@@ -4,7 +4,6 @@
 
 // Copyright (c) 2025 Ametrine Foundation <business@ametrine.cc>
 
-use colorama::Colored;
 use std::io::{self, Read, Write};
 use std::process::Command;
 use std::process::exit;
