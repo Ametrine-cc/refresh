@@ -27,16 +27,6 @@ pub fn mk_project(path: &str, lang: &str) {
             println!("Python project created successfully!");
         }
 
-        "JavaScript" => {
-            println!("Creating JavaScript project...");
-            let mut cmd = Command::new("npm");
-            cmd.arg("init");
-            cmd.arg("-y");
-            cmd.arg(path);
-            cmd.status().expect("failed to create project");
-            println!("JavaScript project created successfully!");
-        }
-
         "Go" => {
             println!("Creating Go project...");
             let mut cmd = Command::new("go");

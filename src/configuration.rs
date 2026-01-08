@@ -31,11 +31,6 @@ fn make_project(lang: &str, path: &str) {
             gitty::init(path);
             restock::mk_project(path, lang);
         }
-        "JavaScript" => {
-            println!("Creating Git repository...");
-            gitty::init(path);
-            restock::mk_project(path, lang);
-        }
         "Go" => {
             println!("Creating Git repository...");
             gitty::init(path);
@@ -51,7 +46,7 @@ fn make_project(lang: &str, path: &str) {
 }
 
 pub fn choose_lang(new_path: &str) {
-    let options = vec!["Rust", "Python", "Go", "Java", "C#", "JavaScript", "Exit"];
+    let options = vec!["Rust", "Python", "Go", "Java", "C#", "Exit"];
 
     match show_menu(&options) {
         Some(selection) => {
@@ -74,9 +69,6 @@ pub fn choose_lang(new_path: &str) {
                     }
                     "Go" => {
                         make_project("Go", new_path);
-                    }
-                    "JavaScript" => {
-                        make_project("JavaScript", new_path);
                     }
                     "Java" => {
                         make_project("Java", new_path);
